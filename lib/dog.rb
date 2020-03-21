@@ -26,8 +26,8 @@ class Dog
     @@all << self
   end
 
-  def save_dog
+  def save
     @@array << self
   end
-  
+
 end
