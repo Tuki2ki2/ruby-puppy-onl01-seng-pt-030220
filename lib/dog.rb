@@ -20,8 +20,8 @@ class Dog
 
 
 # PRIVATE
-  def save_dog
-    @@all< self.save
+def save_dog
+  @@all << self
   end
 
   attr_accessor :name
