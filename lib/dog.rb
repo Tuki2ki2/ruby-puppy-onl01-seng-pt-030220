@@ -24,6 +24,9 @@ class Dog
   def initialize(name)
     @name = name
     @@all << self
+  end
 
+  def save_dog
+    @@array << self
   end
 end
