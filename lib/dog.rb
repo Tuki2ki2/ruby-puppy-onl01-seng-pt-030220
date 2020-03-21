@@ -29,4 +29,5 @@ class Dog
   def save_dog
     @@array << self
   end
+  
 end
