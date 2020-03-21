@@ -21,7 +21,7 @@ class Dog
 
 # PRIVATE
   def save_dog
-    @@all << self
+    @@all< self.save
   end
 
   attr_accessor :name
@@ -29,6 +29,6 @@ class Dog
   def initialize(name)
     @name = name
     @@all << self
-    
+
   end
 end
